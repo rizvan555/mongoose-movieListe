@@ -1,0 +1,19 @@
+{
+  "name": "moovie-liste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loadMovieDetailsDataset.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^7.2.2",
+    "mongosh": "^1.9.1"
+  }
+}
