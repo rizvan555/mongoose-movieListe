@@ -85,6 +85,5 @@ MovieDetails.find(
   { title: 1, genres: 1 }
 )
   .sort({ "imdb.rating": 1 })
-
   .then((data) => console.log(data))
   .catch((error) => console.error(error));
